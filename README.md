@@ -7,7 +7,7 @@ The project analysis is as follows:
 
 （1）	The test and train data folders contain the training and evaluation data for training and evaluation
 
-（2）	api1 is the interface for the model class1, facilitating the calling by front-end personnel
+（2）	api1 is the interface for the model class1, facilitating the calling by front-end 
 
 （3）	best_class1.pth: Stores the coefficients after training the model
 
@@ -32,7 +32,7 @@ The basic structure is the same as class1_code.
 
 (5)  gui: Generates a small graphical user interface to simulate connection with the front-end
 
-5: total_data:  Stores data, namely the internal data of class1, the internal classification data of class5, the total classification data of total_data (original data, without data augmentation), and the total classification data of total_data (after data augmentation by get_data)
+5: total_data:  Stores data, the internal data of class1, the internal data of class5, the total classification data of total_data (original data, without data augmentation), and the total classification data of total_data (after data augmentation by get_data)
 
 该项目是一款用于加油站存储区域的多级图像识别的计算机视觉模型。通过训练多级图像识别模型并结合扫描技术，实现了实时的物料识别。整个系统将需要入库的物品分为6类，这6类物品将被系统识别并在入库时费别统计并分类。6类物品分别是：加油枪、管接头、IBC吨箱加注设备、尿素泵、出油管以及出油管阀。其中除了这六类物品需要分别分类外，管接头和和出油管阀门需要再度分类。而且，在多级图像识别模型构建完成后，我们需要使得使用者能够基于原始网络和新增数据对模型进行更新优化
 项目分析如下：
