@@ -229,7 +229,7 @@ if __name__ == '__main__':
 
     # 加载预训练模型
     encoder = Encoder().to(device)
-    pretrained_path = r"/class5_code/best_class6.pth"
+    pretrained_path = r"/class5_code/best_class5.pth"
     encoder.load_state_dict(torch.load(pretrained_path, map_location=device))
     print(">> 加载预训练模型成功")
 
