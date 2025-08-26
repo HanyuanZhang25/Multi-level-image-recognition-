@@ -1,5 +1,6 @@
 # Multi-level-image-recognition-
 This project is a multi-level image recognition computer vision model used for the storage area of gas stations. By training the multi-level image recognition model and combining with scanning technology, real-time material recognition has been achieved. The entire system will classify the items to be entered into the warehouse into 6 categories. These 6 categories of items will be identified by the system and separately counted and classified during the entry process. The 6 categories of items are: fueling gun, pipe joint, IBC tanker filling equipment, urea pump, oil outlet pipe, and oil outlet pipe valve. Among them, except for these six categories of items that need to be classified separately, the pipe joint and the oil outlet pipe valve need to be classified again. Moreover, after the multi-level image recognition model is constructed, we need to enable users to update and optimize the model based on the original network and new data.
+
 The project analysis is as follows:
 1： class1_code: Used for the internal classification of the pipe joint
 （1）	The test and train data folders contain the training and evaluation data for training and evaluation
